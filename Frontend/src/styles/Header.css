@@ -1,0 +1,49 @@
+.header {
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #fff;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+.logo button {
+    background-color: #00a0e4;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+.nav-menu {
+    display: flex;
+    gap: 20px;
+}
+
+.nav-item {
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    color: #007fc3;
+    cursor: pointer;
+}
+
+.nav-item span {
+    margin-left: 5px;
+    text-decoration: underline;
+}
+
+.nav-item i {
+    font-size: 16px;
+    color: #007fc3;
+}
+
+.icon-clock::before {
+    content: '📉';
+}
+
+.icon-settings::before{
+    content: '🔧';
+}
+
