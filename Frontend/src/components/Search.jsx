@@ -1,10 +1,14 @@
-import '../styles/Search.css'
-const Search = () => {
-    return (
-        <>
-            <input className='search-input' type="text" placeholder='Buscar' />
-        </>
-    )
-}
+import "../styles/Search.css";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faSearch } from "@fortawesome/free-solid-svg-icons";
 
-export default Search
+const Search = () => {
+  return (
+    <div className="search-icon">
+      <FontAwesomeIcon className="icon" icon={faSearch} />
+      <input className="search-input" type="text" placeholder="Buscar" />
+    </div>
+  );
+};
+
+export default Search;

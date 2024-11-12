@@ -1,8 +1,7 @@
-import Header from "./Header";
-import '../styles/App.css'
+import Header from "./components/Header";
+import './styles/App.css'
 
 const Config = () => {
-    const [count, setCount] = useState(0);
   
     return (
       <>

@@ -1,7 +1,20 @@
-.search-input{
+.search-icon{
     display: flex;
-    align-self: self-end;
     padding: 5px;
-    margin-bottom: 10px;
-    
+    margin-bottom: 5px;
+    flex-direction: row-reverse;
+    align-items: center;
+}
+
+.search-icon input{
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    outline: none;
+    margin-right: 10px;
+}
+
+.icon {
+    color: '#888';
+    margin-right: '5px' 
 }
