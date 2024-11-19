@@ -1,4 +1,3 @@
-import { useState } from "react";
 import "./styles/App.css";
 import ReclamationTable from "./components/ReclamationTable";
 import Header from "./components/Header";

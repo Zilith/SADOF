@@ -2,6 +2,7 @@ import "../styles/Header.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGear, faChartSimple } from "@fortawesome/free-solid-svg-icons";
 import { useNavigate } from "react-router-dom";
+import SADOF from "../assets/SADOF.png";
 
 const Header = () => {
   const navigate = useNavigate();
@@ -17,7 +18,7 @@ const Header = () => {
   return (
     <header className="header">
       <div className="logo">
-        <button>Logo</button>
+        <img src={SADOF} alt="SADOF" />
       </div>
       <nav className="nav-menu">
         <div className="nav-item">
